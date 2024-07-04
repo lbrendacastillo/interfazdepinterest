@@ -1,0 +1,50 @@
+/*Comentario*/
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+header nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 98vw; /*Viewport Width*/
+    height: 80px;
+    font-size: 16px;
+    padding: 0px 16px;
+    position: fixed;
+    z-index: 1;
+    background-color: white;
+}
+
+header nav img#pinterest-icon{
+    width: 35px;
+    height: 35px;
+    padding: 4px;
+}
+
+header nav img#pinterest-icon:hover{
+    background-color: #E9E9E9;
+    border-radius: 150px;
+}
+
+.first-list{
+    display: flex;
+}
+
+.first-list a{
+    text-decoration: none;
+    color: black;
+}
+
+.first-list li{
+    list-style: none;
+    padding: 0px 12px;
+}
